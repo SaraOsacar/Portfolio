@@ -1,9 +1,12 @@
 import '../styles/App.scss';
+import Header from './Header';
+import Projects from './Projects';
 
 function App() {
   return (
     <div>
-      <h1>Hola mundo</h1>
+        <Header/>
+        <Projects/>
     </div>
   );
 }
