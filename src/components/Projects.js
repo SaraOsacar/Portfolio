@@ -12,20 +12,28 @@ const projects = [
   {
     id: 2,
     title: 'Task List',
-    description: 'Aplicación para anotar tareas',
+    description: 'App para anotar tareas',
     imageUrl:
       'https://img.freepik.com/fotos-premium/cuaderno-blanco-boligrafo-encima-mesa-escritorio-oficina-madera-computadora-portatil-vista-superior_340270-360.jpg?w=740',
     projectUrl: 'https://saraosacar.github.io/Task-List/',
   },
   {
     id: 3,
+    title: 'Weather Widget',
+    description: 'App de pronóstico del tiempo',
+    imageUrl:
+      'https://cdn4.vectorstock.com/i/1000x1000/14/23/realistic-weather-widget-vector-3421423.jpg',
+    projectUrl: 'https://saraosacar.github.io/Weather-Widget//',
+  },
+  {
+    id: 4,
     title: 'Friends',
     description: 'Frases míticas de Friends',
     imageUrl: 'https://m.media-amazon.com/images/I/6135B629VZL._AC_SL1000_.jpg',
     projectUrl: 'https://saraosacar.github.io/Friends-React-Project/',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Dados y Apuestas',
     description: 'Juego de apuestas',
     imageUrl:
@@ -34,7 +42,7 @@ const projects = [
       'https://saraosacar.github.io/Dados-y-apuestas-JavaScript-project/',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Awesome Profile Cards',
     description: 'Personalizar tarjetas de contacto',
     imageUrl:
@@ -42,7 +50,7 @@ const projects = [
     projectUrl: 'http://beta.adalab.es/project-promo-t-module-2-team-2/',
   },
   {
-    id: 6,
+    id: 7,
     title: 'Cleopatras Digital Empire',
     description: 'Web de equipo',
     imageUrl:
@@ -50,7 +58,7 @@ const projects = [
     projectUrl: 'http://beta.adalab.es/project-promo-t-module-1-team-1/',
   },
   {
-    id: 7,
+    id: 8,
     title: 'Anonymous Proxy',
     description: 'Web maquetación y estilo',
     imageUrl:
