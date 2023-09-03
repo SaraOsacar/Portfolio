@@ -27,14 +27,14 @@ const AboutMe = () => {
               publishing labels and agencies. I'm looking forward to fusing my
               creativity with technology while continuously expanding my skills.
               For more extensive information about my background, you can access
-              my CV {''}
+              my {''}
               <a
                 href="https://drive.google.com/file/d/1a08zboF7GVbkUxq06suediVcveXWT6ns/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="cv-link"
               >
-                here
+                CV
               </a>
               .
             </p>

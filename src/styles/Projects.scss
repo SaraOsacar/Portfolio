@@ -27,6 +27,7 @@
     justify-content: center;
     gap: 20px;
     margin-top: 40px;
+    
   }
 
   .project {
@@ -40,6 +41,7 @@
     max-width: 250px;
     box-shadow: 0 15px 17px rgba(0.3, 0.3, 0.3, 0.5);
     transition: transform 0.3s ease-in-out;
+   
 
     img {
       max-width: 100%;
@@ -71,19 +73,18 @@
       }
     }
   }
+  
   .project-tools {
     font-size: 14px;
     /*font-weight: bold;*/
     margin-top: 9px;
   }
 }
+
 .project-links-container {
   display: flex;
-    /* Usar flexbox para alinear elementos en una fila */
     gap: 10px;
-    /* Agregar espacio entre los íconos */
     justify-content: center;
-    /* Alinear horizontalmente en el centro */
   }
   
 

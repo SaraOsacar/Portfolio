@@ -159,14 +159,16 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={faGlobe} />
+              <FontAwesomeIcon icon={faGlobe} 
+              />
             </a>
             <a
               href={project.projectUrlGithub}
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={faGithub} />
+              <FontAwesomeIcon icon={faGithub} 
+              />
             </a>
             </div>
           </div>

@@ -3,8 +3,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 200px;
+  /*padding: 200px;*/
+  padding: 20px;
   margin-bottom: 3px;
+  margin-top: 150px;
 }
 
 .content-container {
@@ -27,8 +29,12 @@
 }
 
 .my-image {
-  max-width: 280px;
-  margin-right: 100px;
+  max-width: 230px;
+  /*margin-right: 100px;*/
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #a5a4a4;
+  border-radius: 7px;
 }
 
 .text-container {
@@ -55,12 +61,14 @@
   .info {
     p {
       font-size: 16px;
+      
     }
   }
 }
 .cv-link {
   text-decoration: none;
   cursor: pointer;
+  color:rgb(23, 162, 162);
 }
 
 @media (max-width: 480px) {

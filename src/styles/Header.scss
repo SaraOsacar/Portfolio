@@ -6,16 +6,19 @@
   background-color: #fff;
   color: #000;
   padding: 0 20px;
+  border-bottom: 1px solid #ccc;
+  
 }
 
 .contact-icon1 {
   font-size: 2rem;
-  color: #3f3d3d;
+  /*color: #3f3d3d;*/
+  color:#007bff;
   margin: 0 10px;
   transition: color 0.3s;
 }
 .contact-icon1:hover {
-  color: #007bff;
+  transform: translateX(-5px);
 }
 
 .contact-icon2 {
@@ -25,17 +28,17 @@
   transition: color 0.3s;
 }
 .contact-icon2:hover {
-  color: rgb(28, 173, 28);
+  transform: translateX(-5px);
 }
 
 .contact-icon3 {
   font-size: 2rem;
-  color: #3f3d3d;
+  color: rgb(187, 39, 39);
   margin: 0 10px;
   transition: color 0.3s;
 }
 .contact-icon3:hover {
-  color: rgb(187, 39, 39);
+  transform: translateX(-5px);
 }
 
 .name-title {
@@ -51,15 +54,15 @@
 
 .name {
   color: #3f3d3d;
-  font-size: 1.3rem;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  font-family: Helvetica;
   font-weight: bold;
   margin-bottom: 0.5rem;
 }
 
 .title {
   font-size: 1rem;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica;
 }
 
 @keyframes slide-in {
