@@ -19,12 +19,10 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: #fff;
-
   padding: 10px 20px;
-
-  border: 2px solid #333;
-
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border: 2px solid #dcd3d3;
+  border-radius: 3px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 
 .my-image {
@@ -41,5 +39,28 @@
     font-size: 18px;
     line-height: 1.5;
     color: #333;
+  }
+}
+@media (max-width: 768px) {
+  .about-me-title {
+    font-size: 20px;
+  }
+
+  .info {
+    p {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .about-me-title {
+    font-size: 18px;
+  }
+
+  .info {
+    p {
+      font-size: 14px;
+    }
   }
 }
