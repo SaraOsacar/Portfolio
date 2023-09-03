@@ -10,7 +10,7 @@ const projects = [
       <>
         <div className="project-tools">HTML5 | SASS | REACT</div>
         <div className="project-title">
-          Localizador de personajes de la serie
+          Buscador de personajes de la serie
         </div>
       </>
     ),
@@ -23,7 +23,7 @@ const projects = [
     description: (
       <>
         <div className="project-tools">HTML5 | SASS | REACT</div>
-        <div className="project-title">App para anotar tareas</div>
+        <div className="project-title">App de listado de tareas</div>
       </>
     ),
     imageUrl:
@@ -36,7 +36,7 @@ const projects = [
     description: (
       <>
         <div className="project-tools">HTML5 | SASS | REACT</div>
-        <div className="project-title">App pronóstico del tiempo</div>
+        <div className="project-title">App de pronóstico del tiempo</div>
       </>
     ),
     imageUrl:
@@ -49,7 +49,7 @@ const projects = [
     description: (
       <>
         <div className="project-tools">HTML5 | SASS | REACT</div>
-        <div className="project-title">Frases épicas de Friends</div>
+        <div className="project-title">Buscador de frases épicas de Friends</div>
       </>
     ),
     imageUrl: 'https://m.media-amazon.com/images/I/6135B629VZL._AC_SL1000_.jpg',
@@ -61,7 +61,7 @@ const projects = [
     description: (
       <>
         <div className="project-tools">HTML5 | CSS3 | JavaScript</div>
-        <div className="project-title">Juego de apuesta con dados</div>
+        <div className="project-title">Juego de apuestas con dados</div>
       </>
     ),
     imageUrl:
@@ -75,7 +75,7 @@ const projects = [
     description: (
       <>
         <div className="project-tools">HTML5 | SASS | JavaScript</div>
-        <div className="project-title">Personalizar tarjetas de contacto</div>
+        <div className="project-title">Generador de tarjetas de contacto personalizadas</div>
       </>
     ),
     imageUrl:
@@ -88,7 +88,7 @@ const projects = [
     description: (
       <>
         <div className="project-tools">HTML5 | CSS3 |</div>
-        <div className="project-title">Web empresa</div>
+        <div className="project-title">Modelo web de empresa</div>
       </>
     ),
     imageUrl:
@@ -116,7 +116,9 @@ const Projects = () => {
   
   return (
     <div className="projects">
-      <h1>PROJECTS</h1>
+      <div className="title-container">
+        <h1>PROJECTS</h1>
+      </div>
       <div className="project-list">
         {projects.map((project) => (
           <div className="project" key={project.id}>
@@ -128,7 +130,7 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-                View Project
+              View Project
             </a>
           </div>
         ))}

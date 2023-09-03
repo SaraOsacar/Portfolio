@@ -1,0 +1,45 @@
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 200px;
+}
+
+.content-container {
+  display: flex;
+  align-items: center;
+}
+.about-me-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #333;
+  font-size: 26px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #fff;
+
+  padding: 10px 20px;
+
+  border: 2px solid #333;
+
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.my-image {
+  max-width: 280px;
+  margin-right: 100px;
+}
+
+.text-container {
+  flex: 1;
+}
+
+.info {
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+  }
+}
