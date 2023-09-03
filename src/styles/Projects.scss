@@ -33,7 +33,7 @@
   .project {
     color: #373535;
     width: 230px;
-    height: 335px;
+    height: 340px;
     border: 1px solid #ccc;
     border-radius: 7px;
     padding: 20px;
@@ -86,7 +86,15 @@
     gap: 10px;
     justify-content: center;
   }
+     .project-links-container a .faGlobe {
+       font-size: 20px;
+       
+     }
   
+     .project-links-container a .faGithub {
+       font-size: 20px;
+       
+     }
 
 @media (max-width: 768px) {
   h1 {

@@ -11,23 +11,26 @@ const AboutMe = () => {
           <img src={myImage} alt="Mi Foto" className="my-image" />
           <div className="text-container">
             <p>
-              I've transitioned from an extensive career in cultural management
-              and production to becoming a passionate{' '}
-              <strong>Frontend developer</strong>. My creative flair and tech
-              fascination led me to pivot towards coding, embarking on a
-              bootcamp journey that equipped me with skills in{' '}
-              <strong>HTML5</strong>, <strong>CSS3</strong>,{' '}
-              <strong>SASS</strong>, <strong>JavaScript</strong>,{' '}
+              After an extensive career in production & cultural management, my
+              creativity and fascination with technology have led me to pivot
+              towards the IT sector. I have successfully completed a Full Stack
+              web development bootcamp, acquiring skills in a variety of
+              technologies such as <strong>HTML5</strong>, <strong>CSS3</strong>
+              , <strong>SASS</strong>, <strong>JavaScript</strong>,{' '}
               <strong>ReactJS</strong>, <strong>NodeJS</strong>,{' '}
-              <strong>SQL</strong>, and more. With over a decade of project
-              management and communication experience, I excel in organization,
-              adaptability, teamwork, and communication. My track record
-              includes coordinating multidisciplinary teams for live shows,
-              leading 360° cultural campaigns, and managing press releases for
-              publishing labels and agencies. I'm looking forward to fusing my
-              creativity with technology while continuously expanding my skills.
-              For more extensive information about my background, you can access
-              my {''}
+              <strong>SQL</strong>, <strong>ExpressJS</strong> and{' '}
+              <strong>MongoDB</strong>. I have also worked in <strong>Agile</strong> and <strong>Scrum </strong> 
+              environments. With over a decade of experience in project
+              management, production, and communication (Spain and Latin
+              America), I would highlight my organizational ability,
+              adaptability, teamwork, and effective communication. Throughout my
+              career, I have coordinated multidisciplinary teams for live
+              performances, led comprehensive cultural campaigns, managed press
+              releases for record labels and publishers, and facilitated
+              coordination between different departments. I am excited to
+              continue expanding my skills and furthering my growth and
+              development in the sector. For more extensive information about my
+              background, you can access my {''}
               <a
                 href="https://drive.google.com/file/d/1a08zboF7GVbkUxq06suediVcveXWT6ns/view?usp=drive_link"
                 target="_blank"

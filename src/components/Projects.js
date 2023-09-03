@@ -159,7 +159,7 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={faGlobe} 
+              <FontAwesomeIcon icon={faGlobe} className="faGlobe"
               />
             </a>
             <a
@@ -167,7 +167,7 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={faGithub} 
+              <FontAwesomeIcon icon={faGithub} className="faGithub"
               />
             </a>
             </div>
