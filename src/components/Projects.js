@@ -10,11 +10,12 @@ const projects = [
       <>
         <div className="project-tools">HTML5 | SASS | REACT</div>
         <div className="project-title">
-          Buscador de personajes de la serie
+          Favorite character and series information search
         </div>
       </>
     ),
-    imageUrl: 'https://i.ebayimg.com/images/g/znEAAOSwHWRc5Zl-/s-l500.jpg',
+    imageUrl:
+      'https://hips.hearstapps.com/es.h-cdn.co/fotoes/images/series-television/11-cosas-que-no-sabias-de-rick-y-morty/137666502-1-esl-ES/11-cosas-que-no-sabias-de-Rick-y-Morty.jpg?crop=1xw:0.75xh;center,top&resize=1200:*',
     projectUrl: 'https://saraosacar.github.io/Rick-and-Morty-React-Project/',
   },
   {
@@ -23,7 +24,9 @@ const projects = [
     description: (
       <>
         <div className="project-tools">HTML5 | SASS | REACT</div>
-        <div className="project-title">App de listado de tareas</div>
+        <div className="project-title">
+          Task list App for adding, modifying or deleting tasks
+        </div>
       </>
     ),
     imageUrl:
@@ -36,11 +39,13 @@ const projects = [
     description: (
       <>
         <div className="project-tools">HTML5 | SASS | REACT</div>
-        <div className="project-title">App de pronóstico del tiempo</div>
+        <div className="project-title">
+          Weather forecast App in the city of your choice
+        </div>
       </>
     ),
     imageUrl:
-      'https://cdn4.vectorstock.com/i/1000x1000/14/23/realistic-weather-widget-vector-3421423.jpg',
+      'https://img.freepik.com/vector-gratis/solicitud-pronostico-tiempo_1284-34616.jpg',
     projectUrl: 'https://saraosacar.github.io/Weather-Widget//',
   },
   {
@@ -49,19 +54,23 @@ const projects = [
     description: (
       <>
         <div className="project-tools">HTML5 | SASS | REACT</div>
-        <div className="project-title">Buscador de frases épicas de Friends</div>
+        <div className="project-title">
+          Search engine for the most famous Friends quotes
+        </div>
       </>
     ),
-    imageUrl: 'https://m.media-amazon.com/images/I/6135B629VZL._AC_SL1000_.jpg',
+    imageUrl: 'https://www.magisnet.com/wp-content/uploads/2019/09/friends.jpg',
     projectUrl: 'https://saraosacar.github.io/Friends-React-Project/',
   },
   {
     id: 5,
-    title: 'Dados y Apuestas',
+    title: 'Dice Bets',
     description: (
       <>
         <div className="project-tools">HTML5 | CSS3 | JavaScript</div>
-        <div className="project-title">Juego de apuestas con dados</div>
+        <div className="project-title">
+          Dice betting game where you can lose or double your bet
+        </div>
       </>
     ),
     imageUrl:
@@ -75,7 +84,9 @@ const projects = [
     description: (
       <>
         <div className="project-tools">HTML5 | SASS | JavaScript</div>
-        <div className="project-title">Generador de tarjetas de contacto personalizadas</div>
+        <div className="project-title">
+          Team project for generating personalized contact cards
+        </div>
       </>
     ),
     imageUrl:
@@ -88,7 +99,9 @@ const projects = [
     description: (
       <>
         <div className="project-tools">HTML5 | CSS3 |</div>
-        <div className="project-title">Modelo web de empresa</div>
+        <div className="project-title">
+          Team project to create company website template
+        </div>
       </>
     ),
     imageUrl:
@@ -102,7 +115,7 @@ const projects = [
       <>
         <div className="project-tools">HTML5 | CSS3</div>
         <div className="project-title">
-          Maquetación y estilo de web responsive
+          Responsive web and styling created via a Zeplin design
         </div>
       </>
     ),
