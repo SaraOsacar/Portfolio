@@ -1,3 +1,13 @@
+.header-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+  z-index: 1000;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -7,14 +17,14 @@
   color: #000;
   padding: 0 20px;
   border-bottom: 1px solid #ccc;
-  
+  height: 60px;
 }
 
 .contact-icon1 {
   font-size: 1.7rem;
   /*color: #3f3d3d;*/
-  color:#007bff;
-  margin: 0 10px;
+  color: #007bff;
+  margin: 0 5px;
   transition: color 0.3s;
 }
 .contact-icon1:hover {
@@ -24,7 +34,7 @@
 .contact-icon2 {
   font-size: 1.7rem;
   color: #3f3d3d;
-  margin: 0 10px;
+  margin: 0 5px;
   transition: color 0.3s;
 }
 .contact-icon2:hover {
@@ -34,11 +44,44 @@
 .contact-icon3 {
   font-size: 1.7rem;
   color: rgb(187, 39, 39);
-  margin: 0 10px;
+  margin: 0 5px;
   transition: color 0.3s;
 }
 .contact-icon3:hover {
   transform: translateX(-5px);
+}
+
+.sections-container {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  font-size: 10px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s;
+  text-transform: uppercase;
+  padding: 0 20px;
+  margin: 0 10px;
+  font-family: helvetica;
+  margin-left: auto;
+  margin-bottom: 70px;
+
+  &:hover {
+  }
+}
+
+.contact-text {
+  color: #333;
+  text-decoration: none;
+  margin-right: 20px;
+  margin-top: 70px;
+  gap: 3px;
+}
+
+.contact-text:hover {
+  transform: translateY(-7px);
+  color: #333;
 }
 
 .name-title {
@@ -48,8 +91,8 @@
   animation: slide-in 5s;
   color: #3f3d3d;
   padding: 15px;
-  border-radius: 7px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  /*border-radius: 7px;
+ */
 }
 
 .name {
@@ -75,4 +118,39 @@
     transform: translateX(0);
     opacity: 1;
   }
+}
+
+@media (max-width: 480px) {
+
+  .header {
+    padding: 0 10px;
+    
+  }
+
+  .contact-icon1,
+  .contact-icon2,
+  .contact-icon3 {
+    font-size: 1rem;
+  }
+
+  .sections-container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    margin-left: 0;
+    
+  }
+
+  .contact-text {
+    margin: 5px 0;
+    margin-right: 10px;
+  }
+
+  .name-title {
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    
+  }
+
 }

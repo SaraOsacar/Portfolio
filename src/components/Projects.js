@@ -105,6 +105,7 @@ const projects = [
     projectUrlGithub:
       'https://github.com/SaraOsacar/Awesome-Profile-Cards-JavaScript-Team-Project',
   },
+  
   {
     id: 7,
     title: 'Cleopatras Digital Empire',
@@ -143,6 +144,7 @@ const projects = [
 const Projects = () => {
   
   return (
+     <div id="projects" className="projects">
     <div className="projects">
       <div className="title-container">
         <h1>PROJECTS</h1>
@@ -154,26 +156,25 @@ const Projects = () => {
             <h2>{project.title}</h2>
             <p>{project.description}</p>
             <div className="project-links-container">
-            <a
-              href={project.projectUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faGlobe} className="faGlobe"
-              />
-            </a>
-            <a
-              href={project.projectUrlGithub}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faGithub} className="faGithub"
-              />
-            </a>
+              <a
+                href={project.projectUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faGlobe} className="faGlobe" />
+              </a>
+              <a
+                href={project.projectUrlGithub}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faGithub} className="faGithub" />
+              </a>
             </div>
           </div>
         ))}
       </div>
+    </div>
     </div>
   );
 };

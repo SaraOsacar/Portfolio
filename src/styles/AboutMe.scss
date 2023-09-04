@@ -7,6 +7,7 @@
   padding: 20px;
   margin-bottom: 3px;
   margin-top: 150px;
+  
 }
 
 .content-container {
@@ -24,7 +25,7 @@
   background-color: #fff;
   padding: 10px 20px;
   border: 2px solid #dcd3d3;
-  border-radius: 3px;
+  border-radius: 7px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -47,10 +48,11 @@
     line-height: 1.5;
     color: #333;
   }
-}
+ 
 @media (max-width: 768px) {
   .about-me {
-    padding: 100px;
+    padding: 20px;
+    margin-top: 50px;
   }
 
   .about-me-title {
@@ -58,27 +60,16 @@
     margin-bottom: 10px;
   }
 
+  .my-image {
+    max-width: 150px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
   .info {
     p {
       font-size: 16px;
-      
     }
   }
 }
-.cv-link {
-  text-decoration: none;
-  cursor: pointer;
-  color:rgb(23, 162, 162);
-}
-
-@media (max-width: 480px) {
-  .about-me-title {
-    font-size: 18px;
-  }
-
-  .info {
-    p {
-      font-size: 14px;
-    }
-  }
 }
