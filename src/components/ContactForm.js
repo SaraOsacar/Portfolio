@@ -17,9 +17,9 @@ function ContactForm() {
   }
 
   return (
-    <div id="contact" className="projects">
-      <div className="title-container">
-        <h1>CONTACT</h1>
+    <div id="contact">
+      <div className="contact-container">
+        <h1 className="contact-title">Contact</h1>
       </div>
       <p className="contact-text">
         Please feel free to contact me if you have any questions or want to comment or propose
@@ -42,7 +42,7 @@ function ContactForm() {
             id="email"
             type="email"
             name="email"
-            placeholder="Enter your email"
+            placeholder="Enter your Email"
             className="input-mail"
           />
           <ValidationError prefix="Email" field="email" errors={state.errors} />

@@ -71,6 +71,7 @@
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 10px;
+    text-align: center;
     
 }
 
@@ -89,4 +90,41 @@
     margin-top: 200px;
     margin-bottom: 200px;
     color:#333;
+}
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.contact-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #333;
+    font-size: 26px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    padding: 10px 20px;
+    border: 2px solid #dcd3d3;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    
+   
+}
+@media (min-width: 768px) {
+    .contact-form {
+        max-width: 600px;
+        padding: 30px;
+       
+    }
+}
+
+@media (min-width: 1024px) {
+    .contact-form {
+        max-width: 800px;
+        padding: 40px;
+       
+    }
 }
