@@ -120,37 +120,3 @@
   }
 }
 
-@media (max-width: 480px) {
-
-  .header {
-    padding: 0 10px;
-    
-  }
-
-  .contact-icon1,
-  .contact-icon2,
-  .contact-icon3 {
-    font-size: 1rem;
-  }
-
-  .sections-container {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0;
-    margin-left: 0;
-    
-  }
-
-  .contact-text {
-    margin: 5px 0;
-    margin-right: 10px;
-  }
-
-  .name-title {
-    align-items: center;
-    text-align: center;
-    padding: 10px;
-    
-  }
-
-}

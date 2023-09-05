@@ -33,7 +33,7 @@ const Header = () => {
             Projects
           </a>
           <a href="#about-me" className="contact-text">
-            About 
+            About
           </a>
           <a href="#contact" className="contact-text">
             Contact
