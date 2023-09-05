@@ -7,11 +7,11 @@ function ContactForm() {
 
   if (state.succeeded) {
     return (
-        <div className='message-form-answer-container'>
-      <p className="message-form-answer">
-        Thanks for your feedback & suggestions! Your input is greatly
-        appreciated!
-      </p>
+      <div className="message-form-answer-container">
+        <p className="message-form-answer">
+          Thanks for your feedback & suggestions! Your input is greatly
+          appreciated!
+        </p>
       </div>
     );
   }
@@ -22,8 +22,8 @@ function ContactForm() {
         <h1 className="contact-title">Contact</h1>
       </div>
       <p className="contact-text">
-        Please feel free to contact me if you have any questions or want to comment or propose
-        something!
+        Please feel free to contact me if you have any questions or want to
+        comment or propose something!
       </p>
       <div className="contact-form-container">
         <form onSubmit={handleSubmit} className="contact-form">

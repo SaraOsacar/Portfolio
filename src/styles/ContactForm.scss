@@ -3,8 +3,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 100px);
+    /*height: calc(100vh - 100px);*/
     margin-bottom: 0;
+    margin-top: 10px;
   
 }
 
@@ -15,7 +16,8 @@
     width: 100%;
     background-color: #f9f9f9;
     border-radius: 10px;
-    
+    margin-top: 50px;
+    margin-bottom: 150px;
    
 }
 
@@ -70,8 +72,9 @@
     color: #333;
     font-weight: bold;
     font-size: 20px;
-    margin-bottom: 10px;
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
     
 }
 
@@ -95,6 +98,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 90px;
+    margin-bottom: 60px;
     
 }
 .contact-title {
