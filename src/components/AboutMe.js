@@ -35,7 +35,7 @@ const AboutMe = () => {
                 development in the sector. For more extensive information about
                 my background, you can access my {''}
                 <a
-                  href="https://drive.google.com/file/d/1a08zboF7GVbkUxq06suediVcveXWT6ns/view?usp=drive_link"
+                  href="https://drive.google.com/file/d/1DNCAJJng8GggWHdrb9LkzxzRTbifOJdC/view?usp=drive_link"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="cv-link"
