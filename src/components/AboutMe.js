@@ -33,16 +33,33 @@ const AboutMe = () => {
                 coordination between different departments. I am excited to
                 continue expanding my skills and furthering my growth and
                 development in the sector. For more extensive information about
-                my background, you can access my {''}
+                my background, you can access my CV {''}
+                <a
+                  href="https://drive.google.com/file/d/1DNCAJJng8GggWHdrb9LkzxzRTbifOJdC/view?usp=drive_link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  
+                </a>
+                {' in '}
+                <a
+                  href="https://drive.google.com/file/d/140di3mrJ8OJlvMSt_24DkPvntBnBSdBP/view?usp=drive_link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="cv-link"
+                >
+                  spanish
+                </a>{' '}
+                or{' '}
                 <a
                   href="https://drive.google.com/file/d/1DNCAJJng8GggWHdrb9LkzxzRTbifOJdC/view?usp=drive_link"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="cv-link"
                 >
-                  CV
+                  english
                 </a>
-                .
+                , as you wish.
               </p>
             </div>
           </div>
@@ -53,3 +70,4 @@ const AboutMe = () => {
 };
 
 export default AboutMe;
+
