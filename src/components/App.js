@@ -3,6 +3,7 @@ import Header from './Header';
 import Projects from './Projects';
 import AboutMe from './AboutMe';
 import Footer from './Footer';
+import ContactForm from './ContactForm';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Projects />
       <AboutMe />
+      <ContactForm />
       <Footer />
     </div>
   );

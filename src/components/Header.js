@@ -29,13 +29,13 @@ const Header = () => {
           </a>
         </div>
         <div className="sections-container">
-          <a href="#projects" className="contact-text">
+          <a href="#projects" className="contact-text-header">
             Projects
           </a>
-          <a href="#about-me" className="contact-text">
+          <a href="#about-me" className="contact-text-header">
             About
           </a>
-          <a href="#contact" className="contact-text">
+          <a href="#contact" className="contact-text-header">
             Contact
           </a>
         </div>
