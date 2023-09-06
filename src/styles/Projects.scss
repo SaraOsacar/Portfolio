@@ -4,7 +4,7 @@
   .title-container {
     display: inline-block;
     background-color: #fff;
-    padding: 2px 20px;
+    padding: 1px 13px;
     border: 2px solid #dcd3d3;
     border-radius: 9px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
@@ -15,13 +15,12 @@
 
   h1 {
     color: #333;
-    font-size: 27px;
+    font-size: 18px;
     margin-bottom: 100px;
     font-size: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
       'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 1px 10px;
-    
+    padding: 9px 3px;
   }
 
   .project-list {
@@ -30,7 +29,6 @@
     justify-content: center;
     gap: 20px;
     margin-top: 40px;
-    
   }
 
   .project {
@@ -44,16 +42,16 @@
     max-width: 250px;
     box-shadow: 0 3px 7px rgba(0.2, 0.2, 0.2, 0.3);
     transition: transform 0.7s ease-in-out;
-   
+    background-color: white;
 
     img {
-      max-width: 100%;
-      height: 200px;
+      width: 100%;
+      height: 50%;
       object-fit: cover;
     }
 
     h2 {
-      font-size: 20px;
+      font-size: 18px;
       margin: 10px 0;
     }
 
@@ -71,11 +69,11 @@
       transition: color 0.3s;
 
       &:hover {
-        color:#007bff;
+        color: #007bff;
       }
     }
   }
-  
+
   .project-tools {
     font-size: 14px;
     margin-top: 9px;
@@ -84,39 +82,36 @@
 
 .project-links-container {
   display: flex;
-    gap: 10px;
-    justify-content: center;
-  }
-     .project-links-container a .faGlobe {
-       font-size: 21px;
-       
-     }
-  
-     .project-links-container a .faGithub {
-       font-size: 21px;
-       
-     }
-         .sections-container {
-          display: flex;
-          flex-direction: row;
-          justify-content: space-around;
-           font-size: 15px;
-           font-weight: bold;
-           color: #333;
-           cursor: pointer;
-           transition: color 0.3s;
-           text-transform: uppercase;
-           padding: 0 20px;
-           margin: 0 10px;
-           font-family: helvetica;
-           margin-left: 20px;
-           margin-bottom: 70px;
-           margin-top: 20px;
-           transition: color 0.3s, box-shadow 0.3s;
-          
-         }
-        
-         
+  gap: 10px;
+  justify-content: center;
+}
+.project-links-container a .faGlobe {
+  font-size: 21px;
+  margin-top: 10px;
+}
+
+.project-links-container a .faGithub {
+  font-size: 21px;
+  margin-top: 10px;
+}
+.sections-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 15px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s;
+  text-transform: uppercase;
+  padding: 0 20px;
+  margin: 0 10px;
+  font-family: helvetica;
+  margin-left: 20px;
+  margin-bottom: 70px;
+  margin-top: 20px;
+  transition: color 0.3s, box-shadow 0.3s;
+}
 
 @media (max-width: 768px) {
   h1 {

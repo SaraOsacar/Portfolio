@@ -20,9 +20,9 @@ const AboutMe = () => {
                 <strong>CSS3</strong>, <strong>SASS</strong>,{' '}
                 <strong>JavaScript</strong>, <strong>ReactJS</strong>,{' '}
                 <strong>NodeJS</strong>, <strong>SQL</strong>,{' '}
-                <strong>ExpressJS</strong> and <strong>MongoDB</strong>. I have
-                also worked in <strong>Agile</strong> and{' '}
-                <strong>Scrum </strong>
+                <strong>ExpressJS</strong>, <strong>REST API</strong>, 
+                <strong> Git</strong> and <strong>MongoDB</strong>. I have also
+                worked in <strong>Agile</strong> and <strong>Scrum </strong>
                 environments. With over a decade of experience in project
                 management, production, and communication (Spain and Latin
                 America), I would highlight my organizational ability,
@@ -30,18 +30,18 @@ const AboutMe = () => {
                 my career, I have coordinated multidisciplinary teams for live
                 performances, led comprehensive cultural campaigns, managed
                 press releases for record labels and publishers, and facilitated
-                coordination between different departments. I am excited to
-                continue expanding my skills and furthering my growth and
-                development in the sector. For more extensive information about
-                my background, you can access my CV {''}
-                <a
-                  href="https://drive.google.com/file/d/1DNCAJJng8GggWHdrb9LkzxzRTbifOJdC/view?usp=drive_link"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  
-                </a>
-                {' in '}
+                coordination between different departments. About my soft
+                skills, I would hihglight <strong>teamwork</strong>,{' '}
+                <strong>adaptability</strong>,{' '}
+                <strong>creative thinking</strong>,{' '}
+                <strong>problem-solving</strong>,{' '}
+                <strong>responsiveness</strong>,{' '}
+                <strong>attention to detail</strong> and{' '}
+                <strong>organized</strong>. I am excited to continue expanding
+                my skills and furthering my growth and development in the
+                sector. For more extensive information about my background, you
+                can access my CV {''}
+      
                 <a
                   href="https://drive.google.com/file/d/140di3mrJ8OJlvMSt_24DkPvntBnBSdBP/view?usp=drive_link"
                   target="_blank"
