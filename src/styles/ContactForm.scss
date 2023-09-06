@@ -8,6 +8,11 @@
 }
 
 .contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   border: 1px solid #ccc;
   padding: 20px;
   max-width: 400px;
@@ -26,7 +31,7 @@
 
 .contact-form input,
 .contact-form textarea {
-  width: 100%;
+  width: 90%;
   padding: 8px;
   margin-left: 0;
   margin-right: 0;
@@ -34,18 +39,13 @@
   border: 1px solid #ccc;
   border-radius: 5px;
 }
-.contact-form input[type='text'],
-.contact-form input[type='email'],
-.contact-form textarea {
-  width: 90%;
-}
 
 .contact-form button {
   display: block;
-  width: 100%;
+  margin-top: 20px;
+  width: 25%;
   padding: 10px;
   background-color: pink;
-
   color: #333;
   border: none;
   border-radius: 5px;
