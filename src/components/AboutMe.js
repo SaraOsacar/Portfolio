@@ -35,7 +35,7 @@ const AboutMe = () => {
                 <strong>adaptability</strong>,{' '}
                 <strong>creative thinking</strong>,{' '}
                 <strong>problem-solving</strong>,{' '}
-                <strong>responsiveness</strong>,{' '}
+                <strong>responsible</strong>,{' '}
                 <strong>attention to detail</strong> and{' '}
                 <strong>organized</strong>. I am excited to continue expanding
                 my skills and furthering my growth and development in the
