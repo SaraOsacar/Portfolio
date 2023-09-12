@@ -40,7 +40,7 @@ const AboutMe = () => {
                 <strong>organized</strong>. I am excited to continue expanding
                 my skills and furthering my growth and development in the
                 sector. For more extensive information about my background, you
-                can access my CV {''}
+                can access my CV in {''}
       
                 <a
                   href="https://drive.google.com/file/d/140di3mrJ8OJlvMSt_24DkPvntBnBSdBP/view?usp=drive_link"
@@ -48,7 +48,7 @@ const AboutMe = () => {
                   rel="noopener noreferrer"
                   className="cv-link"
                 >
-                  spanish
+                  Spanish
                 </a>{' '}
                 or{' '}
                 <a
@@ -57,9 +57,9 @@ const AboutMe = () => {
                   rel="noopener noreferrer"
                   className="cv-link"
                 >
-                  english
+                  English
                 </a>
-                , as you wish.
+                , as you prefer.
               </p>
             </div>
           </div>
