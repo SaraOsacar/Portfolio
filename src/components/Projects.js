@@ -90,6 +90,22 @@ const projects = [
   },
   {
     id: 6,
+    title: 'Memory Game',
+    description: (
+      <>
+        <div className="project-title">
+          Match musical instruments in this memory game
+        </div>
+        <div className="project-tools">HTML5 | CSS3 | JavaScript</div>
+      </>
+    ),
+    imageUrl:
+      'https://t4.ftcdn.net/jpg/04/75/34/67/360_F_475346781_TJif9FzyRfkpEhfFFIi1te5VIqt2bFMa.jpg',
+    projectUrl: 'https://saraosacar.github.io/Matching-Game/',
+    projectUrlGithub: 'https://github.com/SaraOsacar/Matching-Game',
+  },
+  {
+    id: 7,
     title: 'Awesome Profile Cards',
     description: (
       <>
@@ -105,7 +121,7 @@ const projects = [
     projectUrlGithub:
       'https://github.com/SaraOsacar/Awesome-Profile-Cards-JavaScript-Team-Project',
   },
-  
+
   {
     id: 7,
     title: 'Cleopatras Digital Empire',
