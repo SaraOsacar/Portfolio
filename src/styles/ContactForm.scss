@@ -2,9 +2,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /*height: calc(100vh - 100px);*/
   margin-bottom: 0;
   margin-top: 10px;
+  font-family: helvetica;
+  font-size: 14px;
 }
 
 .contact-form {
@@ -45,12 +46,14 @@
   margin-top: 20px;
   width: 25%;
   padding: 10px;
-  background-color: pink;
+  /*background-color: pink;*/
+  background-color: rgb(247, 171, 184);
   color: #333;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
+  
 }
 
 .contact-form button:hover {
