@@ -106,6 +106,22 @@ const projects = [
   },
   {
     id: 7,
+    title: 'Plants Gallery',
+    description: (
+      <>
+        <div className="project-title">
+          Guide to Types and Care for Plant Lovers
+        </div>
+        <div className="project-tools">HTML5 | CSS3 | JavaScript</div>
+      </>
+    ),
+    imageUrl:
+      'https://www.moiplants.com/wp-content/uploads/2021/04/MG_9868-1024x939.jpg',
+    projectUrl: 'https://saraosacar.github.io/Plants-Gallery/',
+    projectUrlGithub: 'https://github.com/SaraOsacar/Plants-Gallery',
+  },
+  {
+    id: 8,
     title: 'Awesome Profile Cards',
     description: (
       <>
@@ -123,7 +139,7 @@ const projects = [
   },
 
   {
-    id: 7,
+    id: 9,
     title: 'Cleopatras Digital Empire',
     description: (
       <>
@@ -140,7 +156,7 @@ const projects = [
       'https://github.com/SaraOsacar/Cleopatras-s-Digital-Empire-Team-Project',
   },
   {
-    id: 8,
+    id: 10,
     title: 'Anonymous Proxy',
     description: (
       <>
