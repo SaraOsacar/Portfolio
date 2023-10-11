@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
-
 const projects = [
   {
     id: 1,
@@ -25,6 +24,57 @@ const projects = [
   },
   {
     id: 2,
+    title: 'Memory Game',
+    description: (
+      <>
+        <div className="project-title">
+          Match musical instruments in this memory game
+        </div>
+        <div className="project-tools">HTML5 | CSS3 | JavaScript</div>
+      </>
+    ),
+    imageUrl:
+      'https://t4.ftcdn.net/jpg/04/75/34/67/360_F_475346781_TJif9FzyRfkpEhfFFIi1te5VIqt2bFMa.jpg',
+    projectUrl: 'https://saraosacar.github.io/Matching-Game/',
+    projectUrlGithub: 'https://github.com/SaraOsacar/Matching-Game',
+  },
+
+  {
+    id: 3,
+    title: 'Weather Widget',
+    description: (
+      <>
+        <div className="project-title">
+          Weather forecast App in the city of your choice
+        </div>
+        <div className="project-tools">HTML5 | SASS | REACT</div>
+      </>
+    ),
+    imageUrl:
+      'https://cdn4.vectorstock.com/i/1000x1000/14/23/realistic-weather-widget-vector-3421423.jpg',
+    projectUrl: 'https://saraosacar.github.io/Weather-Widget//',
+    projectUrlGithub: 'https://github.com/SaraOsacar/Weather-Widget',
+  },
+
+  {
+    id: 4,
+    title: 'Countdown Timer',
+    description: (
+      <>
+        <div className="project-title">
+          Countdown to Concert Ticket sales activation
+        </div>
+        <div className="project-tools">HTML5 | CSS3 | JavaScript</div>
+      </>
+    ),
+    imageUrl:
+      'https://i.discogs.com/MSHpAtmN7T46E38M8Ur1-_00g8mLYSaAViyh396tW40/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU3NDY5/MDctMTQwMTU0MDAy/OC00MjQ4LmpwZWc.jpeg',
+    projectUrl: 'https://saraosacar.github.io/Countdown-Timer/',
+    projectUrlGithub: 'https://github.com/SaraOsacar/Countdown-Timer',
+  },
+
+  {
+    id: 5,
     title: 'Task List',
     description: (
       <>
@@ -39,24 +89,9 @@ const projects = [
     projectUrl: 'https://saraosacar.github.io/Task-List/',
     projectUrlGithub: 'https://github.com/SaraOsacar/Task-List',
   },
+
   {
-    id: 3,
-    title: 'Weather Widget',
-    description: (
-      <>
-        <div className="project-title">
-          Weather forecast App in the city of your choice
-        </div>
-        <div className="project-tools">HTML5 | SASS | REACT</div>
-      </>
-    ),
-    imageUrl:
-      'https://img.freepik.com/vector-gratis/solicitud-pronostico-tiempo_1284-34616.jpg',
-    projectUrl: 'https://saraosacar.github.io/Weather-Widget//',
-    projectUrlGithub: 'https://github.com/SaraOsacar/Weather-Widget',
-  },
-  {
-    id: 4,
+    id: 6,
     title: 'Friends',
     description: (
       <>
@@ -71,7 +106,7 @@ const projects = [
     projectUrlGithub: 'https://github.com/SaraOsacar/Friends-React-Project',
   },
   {
-    id: 5,
+    id: 7,
     title: 'Dice Bets',
     description: (
       <>
@@ -88,24 +123,9 @@ const projects = [
     projectUrlGithub:
       'https://github.com/SaraOsacar/Dados-y-apuestas-JavaScript-project',
   },
+
   {
-    id: 6,
-    title: 'Memory Game',
-    description: (
-      <>
-        <div className="project-title">
-          Match musical instruments in this memory game
-        </div>
-        <div className="project-tools">HTML5 | CSS3 | JavaScript</div>
-      </>
-    ),
-    imageUrl:
-      'https://t4.ftcdn.net/jpg/04/75/34/67/360_F_475346781_TJif9FzyRfkpEhfFFIi1te5VIqt2bFMa.jpg',
-    projectUrl: 'https://saraosacar.github.io/Matching-Game/',
-    projectUrlGithub: 'https://github.com/SaraOsacar/Matching-Game',
-  },
-  {
-    id: 7,
+    id: 8,
     title: 'Plants Gallery',
     description: (
       <>
@@ -121,7 +141,7 @@ const projects = [
     projectUrlGithub: 'https://github.com/SaraOsacar/Plants-Gallery',
   },
   {
-    id: 8,
+    id: 9,
     title: 'Awesome Profile Cards',
     description: (
       <>
@@ -139,7 +159,7 @@ const projects = [
   },
 
   {
-    id: 9,
+    id: 10,
     title: 'Cleopatras Digital Empire',
     description: (
       <>
@@ -156,7 +176,7 @@ const projects = [
       'https://github.com/SaraOsacar/Cleopatras-s-Digital-Empire-Team-Project',
   },
   {
-    id: 10,
+    id: 11,
     title: 'Anonymous Proxy',
     description: (
       <>
@@ -174,39 +194,42 @@ const projects = [
 ];
 
 const Projects = () => {
-  
   return (
-     <div id="projects" className="projects">
-    <div className="projects">
-      <div className="title-container">
-        <h1>PROJECTS</h1>
-      </div>
-      <div className="project-list">
-        {projects.map((project) => (
-          <div className="project" key={project.id}>
-            <img src={project.imageUrl} alt={project.title} className="project-img"/>
-            <h2>{project.title}</h2>
-            <p>{project.description}</p>
-            <div className="project-links-container">
-              <a
-                href={project.projectUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon icon={faGlobe} className="faGlobe" />
-              </a>
-              <a
-                href={project.projectUrlGithub}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon icon={faGithub} className="faGithub" />
-              </a>
+    <div id="projects" className="projects">
+      <div className="projects">
+        <div className="title-container">
+          <h1>PROJECTS</h1>
+        </div>
+        <div className="project-list">
+          {projects.map((project) => (
+            <div className="project" key={project.id}>
+              <img
+                src={project.imageUrl}
+                alt={project.title}
+                className="project-img"
+              />
+              <h2>{project.title}</h2>
+              <p>{project.description}</p>
+              <div className="project-links-container">
+                <a
+                  href={project.projectUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon icon={faGlobe} className="faGlobe" />
+                </a>
+                <a
+                  href={project.projectUrlGithub}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon icon={faGithub} className="faGithub" />
+                </a>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
-    </div>
     </div>
   );
 };
