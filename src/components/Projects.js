@@ -7,21 +7,21 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 const projects = [
   {
     id: 1,
-    title: 'Rick & Morty',
+    title: 'Countdown Timer',
     description: (
       <>
         <div className="project-title">
-          Favorite character and series information search
+          Countdown to Concert Ticket sales activation
         </div>
-        <div className="project-tools">HTML5 | SASS | REACT</div>
+        <div className="project-tools">HTML5 | CSS3 | JavaScript</div>
       </>
     ),
     imageUrl:
-      'https://hips.hearstapps.com/es.h-cdn.co/fotoes/images/series-television/11-cosas-que-no-sabias-de-rick-y-morty/137666502-1-esl-ES/11-cosas-que-no-sabias-de-Rick-y-Morty.jpg?crop=1xw:0.75xh;center,top&resize=1200:*',
-    projectUrl: 'https://saraosacar.github.io/Rick-and-Morty-React-Project/',
-    projectUrlGithub:
-      'https://github.com/SaraOsacar/Rick-and-Morty-React-Project',
+      'https://i.discogs.com/MSHpAtmN7T46E38M8Ur1-_00g8mLYSaAViyh396tW40/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU3NDY5/MDctMTQwMTU0MDAy/OC00MjQ4LmpwZWc.jpeg',
+    projectUrl: 'https://saraosacar.github.io/Countdown-Timer/',
+    projectUrlGithub: 'https://github.com/SaraOsacar/Countdown-Timer',
   },
+
   {
     id: 2,
     title: 'Memory Game',
@@ -58,19 +58,20 @@ const projects = [
 
   {
     id: 4,
-    title: 'Countdown Timer',
+    title: 'Rick & Morty',
     description: (
       <>
         <div className="project-title">
-          Countdown to Concert Ticket sales activation
+          Favorite character and series information search
         </div>
-        <div className="project-tools">HTML5 | CSS3 | JavaScript</div>
+        <div className="project-tools">HTML5 | SASS | REACT</div>
       </>
     ),
     imageUrl:
-      'https://i.discogs.com/MSHpAtmN7T46E38M8Ur1-_00g8mLYSaAViyh396tW40/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU3NDY5/MDctMTQwMTU0MDAy/OC00MjQ4LmpwZWc.jpeg',
-    projectUrl: 'https://saraosacar.github.io/Countdown-Timer/',
-    projectUrlGithub: 'https://github.com/SaraOsacar/Countdown-Timer',
+      'https://hips.hearstapps.com/es.h-cdn.co/fotoes/images/series-television/11-cosas-que-no-sabias-de-rick-y-morty/137666502-1-esl-ES/11-cosas-que-no-sabias-de-Rick-y-Morty.jpg?crop=1xw:0.75xh;center,top&resize=1200:*',
+    projectUrl: 'https://saraosacar.github.io/Rick-and-Morty-React-Project/',
+    projectUrlGithub:
+      'https://github.com/SaraOsacar/Rick-and-Morty-React-Project',
   },
 
   {
