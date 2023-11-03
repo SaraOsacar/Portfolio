@@ -76,19 +76,19 @@ const projects = [
 
   {
     id: 5,
-    title: 'Task List',
+    title: 'Login',
     description: (
       <>
         <div className="project-title">
-          Task list App for adding, modifying or deleting tasks
+          Login system with personalized home page on successful authentication
         </div>
-        <div className="project-tools">HTML5 | SASS | REACT</div>
+        <div className="project-tools">HTML5 | CSS3 | REACT</div>
       </>
     ),
     imageUrl:
-      'https://img.freepik.com/fotos-premium/cuaderno-blanco-boligrafo-encima-mesa-escritorio-oficina-madera-computadora-portatil-vista-superior_340270-360.jpg?w=740',
-    projectUrl: 'https://saraosacar.github.io/Task-List/',
-    projectUrlGithub: 'https://github.com/SaraOsacar/Task-List',
+      'https://images.pexels.com/photos/3038740/pexels-photo-3038740.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    projectUrl: 'https://saraosacar.github.io/Log-in/',
+    projectUrlGithub: 'https://github.com/SaraOsacar/Log-in',
   },
 
   {
@@ -141,8 +141,25 @@ const projects = [
     projectUrl: 'https://saraosacar.github.io/Plants-Gallery/',
     projectUrlGithub: 'https://github.com/SaraOsacar/Plants-Gallery',
   },
+
   {
     id: 9,
+    title: 'Task List',
+    description: (
+      <>
+        <div className="project-title">
+          Task list App for adding, modifying or deleting tasks
+        </div>
+        <div className="project-tools">HTML5 | SASS | REACT</div>
+      </>
+    ),
+    imageUrl:
+      'https://img.freepik.com/fotos-premium/cuaderno-blanco-boligrafo-encima-mesa-escritorio-oficina-madera-computadora-portatil-vista-superior_340270-360.jpg?w=740',
+    projectUrl: 'https://saraosacar.github.io/Task-List/',
+    projectUrlGithub: 'https://github.com/SaraOsacar/Task-List',
+  },
+  {
+    id: 10,
     title: 'Awesome Profile Cards',
     description: (
       <>
@@ -160,7 +177,7 @@ const projects = [
   },
 
   {
-    id: 10,
+    id: 11,
     title: 'Cleopatras Digital Empire',
     description: (
       <>
@@ -177,7 +194,7 @@ const projects = [
       'https://github.com/SaraOsacar/Cleopatras-s-Digital-Empire-Team-Project',
   },
   {
-    id: 11,
+    id: 12,
     title: 'Anonymous Proxy',
     description: (
       <>
