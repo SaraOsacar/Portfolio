@@ -205,7 +205,7 @@ const projects = [
       </>
     ),
     imageUrl:
-      'https://queverenelmundo.com/guias/wp-content/uploads/Vistas-rockefeller-center-1.jpg',
+      'https://media.admagazine.com/photos/625465331fc7637dbef3f48d/1:1/w_3571,h_3571,c_limit/5.%20Photo%20by%20Dronalist.jpeg',
     projectUrl: 'https://saraosacar.github.io/Anonymous-Proxy/',
     projectUrlGithub: 'https://github.com/SaraOsacar/Anonymous-Proxy',
   },
